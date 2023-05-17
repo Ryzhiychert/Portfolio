@@ -626,12 +626,77 @@ h2 {
     flex-wrap: wrap;
 }
 
-.elon {
-    background: url('/img/nft256/');
+.nft .col-2 img {
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
+.nft .col-1 img {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
 
+.nft img {
+    transform: scaleX(-1);
+}
 
+.elon {
+    background:
+        radial-gradient(circle 25em at bottom, #00000000, #000000a9),
+        linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url('/img/nft256/166back.jpg') no-repeat top left/cover;
+}
+
+.elon h2 {
+    background: linear-gradient(125deg, #da5bad 25%, #ab58ff 46%, #022b9e 82%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.mike h2 {
+    background: linear-gradient(125deg, #004284 25%, #93ff7e 46%, #00eaff 82%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.pangea h2 {
+    background: linear-gradient(125deg, #f3ff52 15%, #b9ffb29d 47%, #1c856b 70%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.elon p {
+    background: linear-gradient(125deg, #022b9e 13%, #ab58ff 50%, #da5bad 88%);
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-background-clip: text;
+    font-weight: lighter;
+}
+
+.mike p {
+    background: linear-gradient(125deg, #00eaff 13%, #93ff7e 50%, #004284 88%);
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-background-clip: text;
+    font-weight: lighter;
+}
+
+.pangea p {
+    background: linear-gradient(125deg, #1c856b 13%, #b9ffb29d 50%, #f3ff52 88%);
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-background-clip: text;
+    font-weight: lighter;
+}
+
+.mike {
+    background:
+        radial-gradient(circle 25em at bottom, #00000000, #000000a9),
+        linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url('/img/nft256/87back.jpg') no-repeat top left/cover;
+}
+
+.pangea {
+    background:
+        radial-gradient(circle 25em at bottom, #00000000, #000000a9),
+        linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url('/img/nft256/29back.jpg') no-repeat top left/cover;
+}
 
 
 @media (max-width: 768px) {
